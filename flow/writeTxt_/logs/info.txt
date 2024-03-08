@@ -1,3 +1,199 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-78
-#docs: 78 #processed: 0
+89
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071506161222.pdf: >शासन निर्णय क्रमांक< >सीबीसी-१०/२००६/प्र.क्र.५७६/मावक<
+	elapsed_time:202403071506161222.pdf: 0.000081
+  exec_task: doc_translator_hf 
+    Paras: #42 Sentences: #0
+	[0]  #words: 258 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 244 #sentences: 17
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 12: बीसीएच-२०२१/प्र.क्र.३८/बांधकामे ==शासन निर्णय क्रमांक: बीसीएच-२०२१/प्र.क्र.३८/बांधकामे
+	extract_order_number:202403071537513722.pdf: >शासन निर्णय क्रमांक< >बीसीएच-२०२१/प्र.क्र.३८/बांधकामे<
+	elapsed_time:202403071537513722.pdf: 0.000615
+  exec_task: doc_translator_hf 
+    Paras: #27 Sentences: #4
+	[0]  #words: 25 #sentences: 4
+	After generate: 3 MB
+	[0]  #words: 220 #sentences: 31
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:83 Errors=83 TableEmptyBodyCellError=83
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071542377222.pdf: >शासन निर्णय क्रमांक< >बीसीएच-२०२४/प्र.क्र.०७/बांधकामे<
+	elapsed_time:202403071542377222.pdf: 0.000103
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #8
+	[0]  #words: 26 #sentences: 8
+	After generate: 3 MB
+	[0]  #words: 261 #sentences: 51
+	After generate: 3 MB
+	[1]  #words: 264 #sentences: 25
+	After generate: 3 MB
+	[2]  #words: 231 #sentences: 17
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071546010422.pdf: >शासन निर्णय क्रमांक< >समिती-२०२३/प्र.क्र.१४९/बांधकामे<
+	elapsed_time:202403071546010422.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #23 Sentences: #24
+	[0]  #words: 45 #sentences: 17
+	After generate: 3 MB
+	[0]  #words: 173 #sentences: 27
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071558497222.pdf: >शासन निर्णय क्रमांक< >एमपीसी-२०१९/प्र.क्र.९०/महामंडळे<
+	elapsed_time:202403071558497222.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #78 Sentences: #0
+	[0]  #words: 259 #sentences: 58
+	After generate: 3 MB
+	[1]  #words: 262 #sentences: 24
+	After generate: 3 MB
+	[2]  #words: 192 #sentences: 16
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071908182822.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071908182822.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #0
+	[0]  #words: 258 #sentences: 43
+	After generate: 3 MB
+	[1]  #words: 79 #sentences: 6
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071908426922.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071908426922.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #40 Sentences: #0
+	[0]  #words: 258 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 78 #sentences: 7
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071908519022.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071908519022.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #47 Sentences: #0
+	[0]  #words: 267 #sentences: 45
+	After generate: 3 MB
+	[1]  #words: 163 #sentences: 14
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071909039622.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071909039622.pdf: 0.000099
+  exec_task: doc_translator_hf 
+    Paras: #42 Sentences: #0
+	[0]  #words: 265 #sentences: 46
+	After generate: 4 MB
+	[1]  #words: 90 #sentences: 8
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:627 Errors=627 TableEmptyBodyCellError=627
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071909090022.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071909090022.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #45 Sentences: #0
+	[0]  #words: 262 #sentences: 44
+	After generate: 4 MB
+	[1]  #words: 146 #sentences: 12
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1408 Errors=1408 TableEmptyBodyCellError=1408
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071909133222.pdf: >शासन निर्णय क्रमांक< >बैठक-२०१९/प्र.क्र. १००/समन्वय<
+	elapsed_time:202403071909133222.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #50 Sentences: #0
+	[0]  #words: 267 #sentences: 48
+	After generate: 4 MB
+	[1]  #words: 167 #sentences: 15
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 89 #processed: 11
