@@ -1,7 +1,28 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-95
+97
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
+	202402281644216722.pdf missing_cmaps: nirmalaui
+  exec_task: word_recognizer 
+	Replaced 0:143 >(nirmalaui-cid:230)(nirmalaui-cid:267)(nirmalaui-cid:306)(nirmalaui-cid:265)(nirmalaui-cid:301)(nirmalaui-cid:267)<  >जनुदान<
+	Replaced 0:243 >(nirmalaui-cid:230)(nirmalaui-cid:267)(nirmalaui-cid:306)(nirmalaui-cid:265)(nirmalaui-cid:301)(nirmalaui-cid:267)<  >जनुदान<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202402281644216722.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२३/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
+	elapsed_time:202402281644216722.pdf: 0.000089
+  exec_task: doc_translator_hf 
+    Paras: #47 Sentences: #0
+	[0]  #words: 263 #sentences: 43
+	After generate: 3 MB
+	[1]  #words: 227 #sentences: 18
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111519074522.pdf missing_cmaps: nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 1
   exec_task: pdftable_finder 
@@ -11,152 +32,20 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403111519074522.pdf --> para 202403111519074522.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111615054022.pdf missing_cmaps: sakalmarathinormal
+	202403121650184022.pdf missing_cmaps: nirmalaui
   exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111615054022.pdf: >शासन निर्णय क्रमांक< >मासाका-२०२४/प्र.क्र. ६४/अजाक<
-	elapsed_time:202403111615054022.pdf: 0.000220
+	extract_order_number:202403121650184022.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२२/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
+	elapsed_time:202403121650184022.pdf: 0.000105
   exec_task: doc_translator_hf 
-    Paras: #48 Sentences: #0
-	[0]  #words: 267 #sentences: 44
-	After generate: 2,288 MB
-	[1]  #words: 262 #sentences: 20
-	After generate: 2,288 MB
-	[2]  #words: 281 #sentences: 13
-	After generate: 2,288 MB
-	[3]  #words: 87 #sentences: 3
-	After generate: 2,288 MB
+    Paras: #43 Sentences: #0
+	[0]  #words: 259 #sentences: 47
+	After generate: 3 MB
+	[1]  #words: 178 #sentences: 14
+	After generate: 3 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111619191322.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111619191322.pdf: >शासन निर्णय क्रमांक< >मासाका-२०२४/प्र.क्र. ६५/अजाक<
-	elapsed_time:202403111619191322.pdf: 0.000193
-  exec_task: doc_translator_hf 
-    Paras: #39 Sentences: #0
-	[0]  #words: 265 #sentences: 39
-	After generate: 2,288 MB
-	[1]  #words: 271 #sentences: 19
-	After generate: 2,288 MB
-	[2]  #words: 275 #sentences: 11
-	After generate: 2,288 MB
-	[3]  #words: 88 #sentences: 2
-	After generate: 2,288 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111623218022.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111623218022.pdf: >शासन निर्णय क्रमांक< >मासाका-२०२४/प्र.क्र. ६६/अजाक<
-	elapsed_time:202403111623218022.pdf: 0.000213
-  exec_task: doc_translator_hf 
-    Paras: #40 Sentences: #0
-	[0]  #words: 263 #sentences: 39
-	After generate: 2,288 MB
-	[1]  #words: 266 #sentences: 19
-	After generate: 2,288 MB
-	[2]  #words: 274 #sentences: 12
-	After generate: 2,288 MB
-	[3]  #words: 103 #sentences: 3
-	After generate: 2,288 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111904454522.pdf missing_cmaps: sakalmarathinormal, nirmalaui
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
-	Tesseract on page: 4
-	Tesseract on page: 5
-	Tesseract on page: 6
-	Tesseract on page: 7
-	Tesseract on page: 8
-	Tesseract on page: 9
-	Tesseract on page: 10
-	Tesseract on page: 11
-	Tesseract on page: 12
-	Tesseract on page: 13
-	Tesseract on page: 14
-	Tesseract on page: 15
-	Tesseract on page: 16
-	Tesseract on page: 17
-	Tesseract on page: 18
-	Tesseract on page: 19
-	Tesseract on page: 20
-	Tesseract on page: 21
-	Tesseract on page: 22
-	Tesseract on page: 23
-	Tesseract on page: 24
-	Tesseract on page: 25
-	Tesseract on page: 26
-	Tesseract on page: 27
-	Tesseract on page: 28
-	Tesseract on page: 29
-	Tesseract on page: 30
-	Tesseract on page: 31
-  exec_task: pdftable_finder 
-	==Total:3 Errors=3 TableEmptyBodyCellError=3
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111904454522.pdf: >शासन निर्णय क्रमांक< >तृतीय-२०२३/प्र.क्र.१२२/सामासु<
-	elapsed_time:202403111904454522.pdf: 0.000133
-  exec_task: doc_translator_hf 
-    Paras: #48 Sentences: #0
-	[0]  #words: 260 #sentences: 48
-	After generate: 2,288 MB
-	[1]  #words: 197 #sentences: 20
-	After generate: 2,288 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111958594722.pdf missing_cmaps: sakalmarathinormal, nirmalaui
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111958594722.pdf: >शासन निर्णय क्रमांक< >गृहनि-२०२३/प्र.क्र. ९१(२)/बांधकामे<
-	elapsed_time:202403111958594722.pdf: 0.000155
-  exec_task: doc_translator_hf 
-    Paras: #44 Sentences: #0
-	[0]  #words: 258 #sentences: 43
-	After generate: 2,288 MB
-	[1]  #words: 257 #sentences: 14
-	After generate: 2,288 MB
-	[2]  #words: 131 #sentences: 4
-	After generate: 2,288 MB
-  exec_task: text_writer 
-#docs: 95 #processed: 6
+#docs: 97 #processed: 3
