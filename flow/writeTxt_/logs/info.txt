@@ -2,27 +2,6 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 97
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402281644216722.pdf missing_cmaps: nirmalaui
-  exec_task: word_recognizer 
-	Replaced 0:143 >(nirmalaui-cid:230)(nirmalaui-cid:267)(nirmalaui-cid:306)(nirmalaui-cid:265)(nirmalaui-cid:301)(nirmalaui-cid:267)<  >जनुदान<
-	Replaced 0:243 >(nirmalaui-cid:230)(nirmalaui-cid:267)(nirmalaui-cid:306)(nirmalaui-cid:265)(nirmalaui-cid:301)(nirmalaui-cid:267)<  >जनुदान<
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202402281644216722.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२३/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
-	elapsed_time:202402281644216722.pdf: 0.000089
-  exec_task: doc_translator_hf 
-    Paras: #47 Sentences: #0
-	[0]  #words: 263 #sentences: 43
-	After generate: 3 MB
-	[1]  #words: 227 #sentences: 18
-	After generate: 3 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111519074522.pdf missing_cmaps: nirmalaui
   exec_task: word_recognizer 
 	Tesseract on page: 1
   exec_task: pdftable_finder 
@@ -30,22 +9,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403111519074522.pdf --> para 202403111519074522.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403121650184022.pdf missing_cmaps: nirmalaui
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403121650184022.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२२/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
-	elapsed_time:202403121650184022.pdf: 0.000105
-  exec_task: doc_translator_hf 
-    Paras: #43 Sentences: #0
-	[0]  #words: 259 #sentences: 47
-	After generate: 3 MB
-	[1]  #words: 178 #sentences: 14
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 97 #processed: 3
+#docs: 97 #processed: 1
