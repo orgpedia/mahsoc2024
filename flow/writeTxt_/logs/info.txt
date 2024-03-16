@@ -1,12 +1,30 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-102
+110
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:9 Errors=9 TableEmptyBodyCellError=9
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202403111519074522.pdf --> para 202403111519074522.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
-#docs: 102 #processed: 1
+**** PIPEERROR IN 202403111519074522.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151647312922.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151650369722.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151822338122.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151825251122.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151832361222.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151835549922.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151838269822.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151840276822.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+#docs: 110 #processed: 9
