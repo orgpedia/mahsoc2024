@@ -1,30 +1,391 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-110
+119
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403111519074522.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:9 Errors=9 TableEmptyBodyCellError=9
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403111519074522.pdf --> para 202403111519074522.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151647312922.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151647312922.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२३/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
+	elapsed_time:202403151647312922.pdf: 0.000088
+  exec_task: doc_translator_hf 
+    Paras: #43 Sentences: #0
+	[0]  #words: 259 #sentences: 46
+	After generate: 3 MB
+	[1]  #words: 166 #sentences: 13
+	After generate: 3 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151650369722.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151650369722.pdf: >शासन निर्णय क्रमांक< >बीजीटी-२०२३/प्र.क्र.६१/अर्थसंकल्प (विघयो)<
+	elapsed_time:202403151650369722.pdf: 0.000093
+  exec_task: doc_translator_hf 
+    Paras: #44 Sentences: #35
+	[0]  #words: 27 #sentences: 11
+	After generate: 3 MB
+	[0]  #words: 259 #sentences: 43
+	After generate: 3 MB
+	[1]  #words: 186 #sentences: 15
+	After generate: 3 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151822338122.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151822338122.pdf: >शासन निर्णय क्रमांक< >सकआ २०२३/प्र.क्र.२३२/आस्था-२<
+	elapsed_time:202403151822338122.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #77 Sentences: #28
+	[0]  #words: 89 #sentences: 17
+	After generate: 3 MB
+	[0]  #words: 263 #sentences: 64
+	After generate: 3 MB
+	[1]  #words: 264 #sentences: 28
+	After generate: 3 MB
+	[2]  #words: 10 #sentences: 1
+	After generate: 3 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151825251122.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151825251122.pdf: >शासन निर्णय क्रमांक< >सकआ २०२२/प्र.क्र.१०७/आस्था-२<
+	elapsed_time:202403151825251122.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #79 Sentences: #36
+	[0]  #words: 142 #sentences: 23
+	After generate: 3 MB
+	[0]  #words: 258 #sentences: 65
+	After generate: 4 MB
+	[1]  #words: 264 #sentences: 28
+	After generate: 4 MB
+	[2]  #words: 31 #sentences: 3
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151832361222.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151832361222.pdf: >शासन आदेश क्रमांक< >सकआ २०२२/प्र.क्र.१०७/आस्था-२<
+	elapsed_time:202403151832361222.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #78 Sentences: #52
+	[0]  #words: 220 #sentences: 35
+	After generate: 4 MB
+	[0]  #words: 259 #sentences: 63
+	After generate: 4 MB
+	[1]  #words: 266 #sentences: 28
+	After generate: 4 MB
+	[2]  #words: 20 #sentences: 2
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151835549922.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151835549922.pdf: >शासन निर्णय क्रमांक< >सकआ २०२३/प्र.क्र.२५६/आस्था-२<
+	elapsed_time:202403151835549922.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #96 Sentences: #52
+	[0]  #words: 256 #sentences: 35
+	After generate: 4 MB
+	[0]  #words: 260 #sentences: 70
+	After generate: 4 MB
+	[1]  #words: 257 #sentences: 30
+	After generate: 4 MB
+	[2]  #words: 164 #sentences: 16
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151838269822.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151838269822.pdf: >शासन निर्णय क्रमांक< >सकआ २०२३/प्र.क्र.२५६/आस्था-२<
+	elapsed_time:202403151838269822.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #75 Sentences: #30
+	[0]  #words: 90 #sentences: 19
+	After generate: 4 MB
+	[0]  #words: 262 #sentences: 64
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 28
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151840276822.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 110 #processed: 9
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151840276822.pdf: >शासन आदेश क्रमांक< >सकआ-२०२४/प्र.क्र. २९/आस्था-२<
+	elapsed_time:202403151840276822.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #34 Sentences: #12
+	[0]  #words: 52 #sentences: 7
+	After generate: 4 MB
+	[0]  #words: 271 #sentences: 36
+	After generate: 4 MB
+	[1]  #words: 23 #sentences: 2
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152331176322.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:7 Errors=7 TableEmptyBodyCellError=7
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152331176322.pdf: Unable to find order
+	elapsed_time:202403152331176322.pdf: 0.000036
+  exec_task: doc_translator_hf 
+    Paras: #68 Sentences: #27
+	[0]  #words: 273 #sentences: 23
+	After generate: 7 MB
+	[1]  #words: 273 #sentences: 3
+	After generate: 7 MB
+	[0]  #words: 262 #sentences: 64
+	After generate: 13 MB
+	[1]  #words: 268 #sentences: 22
+	After generate: 13 MB
+	[2]  #words: 161 #sentences: 8
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152334575822.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152334575822.pdf: Unable to find order
+	elapsed_time:202403152334575822.pdf: 0.000061
+  exec_task: doc_translator_hf 
+    Paras: #28 Sentences: #6
+	[0]  #words: 22 #sentences: 6
+	After generate: 13 MB
+	[0]  #words: 258 #sentences: 39
+	After generate: 13 MB
+	[1]  #words: 147 #sentences: 5
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152337505922.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152337505922.pdf: Unable to find order
+	elapsed_time:202403152337505922.pdf: 0.000039
+  exec_task: doc_translator_hf 
+    Paras: #81 Sentences: #0
+	[0]  #words: 266 #sentences: 63
+	After generate: 13 MB
+	[1]  #words: 267 #sentences: 24
+	After generate: 13 MB
+	[2]  #words: 243 #sentences: 13
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161500476522.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161500476522.pdf: >शासन निर्णय क्रमांक< >हामैऊ-२०२३/प्र.क्र. ७९/सआक<
+	elapsed_time:202403161500476522.pdf: 0.000092
+  exec_task: doc_translator_hf 
+    Paras: #157 Sentences: #22
+	[0]  #words: 94 #sentences: 22
+	After generate: 13 MB
+	[0]  #words: 260 #sentences: 64
+	After generate: 13 MB
+	[1]  #words: 258 #sentences: 29
+	After generate: 13 MB
+	[2]  #words: 264 #sentences: 25
+	After generate: 13 MB
+	[3]  #words: 257 #sentences: 22
+	After generate: 13 MB
+	[4]  #words: 261 #sentences: 23
+	After generate: 13 MB
+	[5]  #words: 196 #sentences: 17
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161553400322.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161553400322.pdf: Unable to find order
+	elapsed_time:202403161553400322.pdf: 0.000036
+  exec_task: doc_translator_hf 
+    Paras: #39 Sentences: #0
+	[0]  #words: 265 #sentences: 54
+	After generate: 13 MB
+	[1]  #words: 144 #sentences: 10
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161635270522.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:24 Errors=24 TableEmptyBodyCellError=24
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161635270522.pdf: Unable to find order
+	elapsed_time:202403161635270522.pdf: 0.000039
+  exec_task: doc_translator_hf 
+    Paras: #41 Sentences: #0
+	[0]  #words: 267 #sentences: 41
+	After generate: 13 MB
+	[1]  #words: 151 #sentences: 11
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161756093022.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161756093022.pdf: Unable to find order
+	elapsed_time:202403161756093022.pdf: 0.000046
+  exec_task: doc_translator_hf 
+    Paras: #36 Sentences: #0
+	[0]  #words: 264 #sentences: 38
+	After generate: 13 MB
+	[1]  #words: 259 #sentences: 17
+	After generate: 13 MB
+	[2]  #words: 288 #sentences: 11
+	After generate: 13 MB
+	[3]  #words: 75 #sentences: 2
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161759245922.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161759245922.pdf: Unable to find order
+	elapsed_time:202403161759245922.pdf: 0.000034
+  exec_task: doc_translator_hf 
+    Paras: #36 Sentences: #0
+	[0]  #words: 263 #sentences: 39
+	After generate: 13 MB
+	[1]  #words: 270 #sentences: 18
+	After generate: 13 MB
+	[2]  #words: 262 #sentences: 10
+	After generate: 13 MB
+	[3]  #words: 88 #sentences: 2
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161800165122.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161800165122.pdf: Unable to find order
+	elapsed_time:202403161800165122.pdf: 0.000043
+  exec_task: doc_translator_hf 
+    Paras: #46 Sentences: #0
+	[0]  #words: 265 #sentences: 52
+	After generate: 13 MB
+	[1]  #words: 266 #sentences: 20
+	After generate: 13 MB
+	[2]  #words: 276 #sentences: 12
+	After generate: 13 MB
+	[3]  #words: 198 #sentences: 5
+	After generate: 13 MB
+  exec_task: text_writer 
+#docs: 119 #processed: 18
