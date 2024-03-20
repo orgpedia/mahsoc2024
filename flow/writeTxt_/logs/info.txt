@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-119
+122
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -9,4 +9,121 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403111519074522.pdf --> para 202403111519074522.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
-#docs: 119 #processed: 1
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121422317022.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:274 Errors=274 TableEmptyBodyCellError=274
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403121422317022.pdf --> para 202403121422317022.pdf:Page_idx: 1 3 <-> [(0, 1)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403191551587922.pdf missing_cmaps: mangalbold, sakalmarathinormal, mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:137 Errors=137 TableEmptyBodyCellError=137
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403191551587922.pdf: >शासन निर्णय क्र.< >इंगायो २०१२/प्र.क्र.५२/विसयो<
+	elapsed_time:202403191551587922.pdf: 0.000128
+  exec_task: doc_translator_hf 
+    Paras: #21 Sentences: #20
+	[0]  #words: 17 #sentences: 16
+	After generate: 2 MB
+	[0]  #words: 284 #sentences: 28
+	After generate: 7 MB
+	[1]  #words: 52 #sentences: 1
+	After generate: 7 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201527305922.pdf missing_cmaps: dvotsurekhbold, dvotsurekhmrbold, dvotsurekhnormal, dvotsurekhmrnormal, kokila, sakalmarathinormal, mangal, kokilabold, calibribold, mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
+	Tesseract on page: 17
+	Tesseract on page: 18
+	Tesseract on page: 19
+	Tesseract on page: 20
+	Tesseract on page: 21
+	Tesseract on page: 22
+	Tesseract on page: 23
+	Tesseract on page: 24
+	Tesseract on page: 25
+	Tesseract on page: 26
+	Tesseract on page: 27
+	Tesseract on page: 28
+	Tesseract on page: 29
+	Tesseract on page: 30
+	Tesseract on page: 31
+	Tesseract on page: 32
+	Tesseract on page: 33
+	Tesseract on page: 34
+	Tesseract on page: 35
+	Tesseract on page: 36
+	Tesseract on page: 37
+	Tesseract on page: 38
+	Tesseract on page: 39
+	Tesseract on page: 40
+	Tesseract on page: 41
+	Tesseract on page: 42
+	Tesseract on page: 43
+	Tesseract on page: 44
+	Tesseract on page: 45
+	Tesseract on page: 46
+	Tesseract on page: 47
+	Tesseract on page: 48
+	Tesseract on page: 49
+	Tesseract on page: 50
+	Tesseract on page: 51
+	Tesseract on page: 52
+	Tesseract on page: 53
+	Tesseract on page: 54
+	Tesseract on page: 55
+	Tesseract on page: 56
+	Tesseract on page: 57
+	Tesseract on page: 58
+	Tesseract on page: 59
+	Tesseract on page: 60
+	Tesseract on page: 61
+	Tesseract on page: 62
+	Tesseract on page: 63
+	Tesseract on page: 64
+	Tesseract on page: 65
+	Tesseract on page: 66
+	Tesseract on page: 67
+	Tesseract on page: 68
+	Tesseract on page: 69
+	Tesseract on page: 70
+	Tesseract on page: 71
+	Tesseract on page: 72
+	Tesseract on page: 73
+  exec_task: pdftable_finder 
+	==Total:8065 Errors=8065 TableEmptyBodyCellError=8065
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403201527305922.pdf --> para 202403201527305922.pdf:Page_idx: 16 1 <-> [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4)]
+#docs: 122 #processed: 4
